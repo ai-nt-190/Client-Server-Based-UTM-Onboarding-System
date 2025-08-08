@@ -13,12 +13,12 @@ It follows a **client–server architecture** where the client collects user inp
 - Centralized and scalable architecture
 
 Procedure:
-  Add Libraries-
+  - Add Libraries-
       Go to File → Project Structure → Libraries and add the JARs from the lib folder.
-  Run Server-
+  - Run Server-
       Start Server.java first.
-  Run Client-
-      Run Client.java, enter details, and verify server receives them.
+  - Run Client-
+      Run Client.java, enter the details, and verify that the server receives them.
 
 File Structure:
 - lib/ # External JAR dependencies
@@ -28,5 +28,3 @@ File Structure:
 - Client.java # Client program
 - Server.java # Server program
 - EmailSender.java # Email sending utility
-
-

@@ -12,15 +12,6 @@ It follows a **client–server architecture** where the client collects user inp
 - Sends automated email notifications
 - Centralized and scalable architecture
 
-File Structure:
-├── lib/ # External JAR dependencies
-│ ├── activation-1.1.1.jar
-│ ├── jakarta.mail-1.6.7-javadoc.jar
-│ └── javax.mail-1.6.2.jar
-├── Client.java # Client program
-├── Server.java # Server program
-├── EmailSender.java # Email sending utility
-
 Procedure:
   Add Libraries-
       Go to File → Project Structure → Libraries and add the JARs from the lib folder.
@@ -28,3 +19,14 @@ Procedure:
       Start Server.java first.
   Run Client-
       Run Client.java, enter details, and verify server receives them.
+
+File Structure:
+- lib/ # External JAR dependencies
+  - activation-1.1.1.jar
+  - jakarta.mail-1.6.7-javadoc.jar
+  - javax.mail-1.6.2.jar
+- Client.java # Client program
+- Server.java # Server program
+- EmailSender.java # Email sending utility
+
+
